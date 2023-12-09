@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package p0052;
+
+/**
+ *
+ * @author Nam Ast
+ */
+public class Country  extends EastAsiaCountries implements Comparable<Country>{
+
+    private String countryTerrain;
+
+    public Country() {
+    }
+
+    public Country(String countryTerrain, String countryCode,
+            String countryName, double countryArea) {
+        super(countryCode, countryName, countryArea);
+        this.countryTerrain = countryTerrain;
+    }
+
+    public void display() {
+        System.out.printf("%-10s%-25s%-20.0f%-25s\n", this.countryCode,
+                this.countryName, this.countryArea, this.countryTerrain);
+    }
+
+    public String getCountryTerrain() {
+        return countryTerrain;
+    }
+
+    public void setCountryTerrain(String countryTerrain) {
+        this.countryTerrain = countryTerrain;
+    }
+    @Override
+    public int compareTo(Country o) {
+          return this.getCountryName().compareTo(o.getCountryName()); }
+    
+}

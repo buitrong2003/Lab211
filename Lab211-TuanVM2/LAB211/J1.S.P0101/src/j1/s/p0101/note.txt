@@ -1,0 +1,33 @@
+Requird :
+    - ID employees: Check duplicate id 
+    - FirstName ; LastName : String 
+    - DOB : date of birth : Date 
+    - Sex : Male / Female
+    - Salary : double
+    - Agency : String
+    - Remove employees: find by id
+    - Sort employees: by salary
+Note : 
+     Step 1 : input user's option
+     Step 2 : Do user's option
+     Step 3 :   Display Result.
+    --------------------------------------------  
+    Step 1 : input user's option
+        Display menu ; choose option from 1 to 4 . 
+        switch (choice) case
+    --------------------------------------------
+    Step 2 : Do user's option
+    1 : add      
+    2: update 
+    3: remove 
+    4: sort by id 
+    5: Exit 
+    --------------------------------------------
+    Step 3 :   Display Result.
+        Display a result list 
+Testcase : 
+Id, First Name, Last Name, Phone, Email, Address, DOB, Sex, Salary, Agency   
+1, Nam, Le, 0912345678, 09ab@gmail.com.vn, vinhphuc, 01/01/2001, male, 30000,fpt 
+2, Lan, Nguyen, 0987654321, Aaab09@gmail.com.vn, Yenbai, 24/12/2003, female, 1200.0,Fpt 
+3, Hoa, Ly, 0912343678, cBaaa09@gmail.com.vn, Hagiang, 30/09/2002, female, 320.33,fPt 
+4, Viet, Tieu, 0913455678, mmMM09@gmail.com.vn, Phutho, 05/07/2004, male, 550.99,fpT  
